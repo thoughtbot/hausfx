@@ -38,3 +38,23 @@ ul {
     padding: 1rem;
   }
 }
+
+.egg {
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 0;
+  right: 4rem;
+
+  button {
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    text-shadow: none;
+    background: #FF7900;
+    color: #273444;
+    padding: 0.5rem;
+    cursor: default;
+  }
+}
