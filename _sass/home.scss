@@ -3,17 +3,24 @@ html {
 
 body {
   background-image: url("images/hausfx-bg.png");
+  background-repeat: repeat-x;
+  background-size: cover;
   font-family: 'Inconsolata', monospace;
 }
 
 main {
-  max-width: 400px;
   margin: 0 auto;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+  text-align: center;
+}
+
+svg {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 ul {
