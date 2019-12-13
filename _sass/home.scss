@@ -5,8 +5,10 @@ body {
   background-image: url("images/hausfx-bg.png");
   background-repeat: repeat-x;
   background-size: cover;
+  background-position: center;
   background-color: #333435;
   font-family: 'Inconsolata', monospace;
+  min-height: 100vh;
 }
 
 main {
